@@ -35,11 +35,11 @@ function ContactSection() {
             </div>
           </div>
         </div>
-        <div className="w-full md:w-1/2 flex justify-center">
+        <div className="w-full md:w-1/2 flex items-center justify-center">
           <Image
             src={"/images/contact.svg"}
             alt="green image"
-            width={300}
+            width={400}
             height={200}
             className="w-auto h-auto md:w-[443px] md:h-[300px]"
           />
