@@ -10,7 +10,7 @@ import React from "react";
 import Image from "next/image";
 import ProductDetailsCard from "./productCard";
 import { FaAngleRight } from "react-icons/fa";
-import { IoIosSearch, IoMdStar } from "react-icons/io";
+import { IoMdStar } from "react-icons/io";
 import { Button } from "@/components/ui/button";
 import { CiHeart } from "react-icons/ci";
 import { PiShoppingCartSimpleThin } from "react-icons/pi";
@@ -28,7 +28,7 @@ const homePage = [
   {
     id: 2,
     priceStrikeThrough: 350,
-    image: "/images/detail1.svg",
+    image: "/images/product1.svg",
     title: "Graphic Design",
     description: "English Department",
     price: 450,
@@ -36,7 +36,7 @@ const homePage = [
   {
     id: 3,
     priceStrikeThrough: 350,
-    image: "/images/detail1.svg",
+    image: "/images/product2.svg",
     title: "Graphic Design",
     description: "English Department",
     price: 450,
@@ -44,7 +44,7 @@ const homePage = [
   {
     id: 4,
     priceStrikeThrough: 350,
-    image: "/images/detail1.svg",
+    image: "/images/product3.svg",
     title: "Graphic Design",
     description: "English Department",
     price: 450,
@@ -52,7 +52,7 @@ const homePage = [
   {
     id: 5,
     priceStrikeThrough: 350,
-    image: "/images/detail1.svg",
+    image: "/images/product4.svg",
     title: "Graphic Design",
     description: "English Department",
     price: 450,
@@ -60,7 +60,7 @@ const homePage = [
   {
     id: 6,
     priceStrikeThrough: 350,
-    image: "/images/detail1.svg",
+    image: "/images/product5.svg",
     title: "Graphic Design",
     description: "English Department",
     price: 450,
@@ -76,7 +76,7 @@ const homePage = [
   {
     id: 8,
     priceStrikeThrough: 350,
-    image: "/images/detail1.svg",
+    image: "/images/product6.svg",
     title: "Graphic Design",
     description: "English Department",
     price: 450,
@@ -126,7 +126,7 @@ function ProductDetail() {
               />
             </div>
           </div>
-          <div className="md:w-1/2 w-full text-[#858585] space-y-5 flex flex-col justify-center items-start md:justify-start px-6">
+          <div className="md:w-1/2 w-full text-[#858585] space-y-5 flex flex-col justify-center items-start md:justify-start px-9">
             <h1>Floating Phone</h1>
             <p className="flex text-yellow-500 gap-2 items-center">
               <IoMdStar />
@@ -166,10 +166,17 @@ function ProductDetail() {
         </div>
       </div>
       {/* section two */}
-      <div className="grid grid-cols-1 md:grid-cols-3 p-5">
-        <div className="flex items-center justify-center">
+      <div className="flex flex-col justify-center items-center py-3">
+      <div className="flex flex-col md:flex-row text-center space-y-3 md:gap-4 mb-3">
+        <p>Description</p>
+        <p>Additional Information</p>
+        <p>Reviews</p>
+
+      </div>
+      <div className="grid grid-cols-1  md:grid-cols-3 gap-4 p-3 md:p-6">
+        <div className=" flex items-center justify-center">
           <Image
-            src={"/images/detail1.svg"}
+            src={"/images/price1.svg"}
             alt="image 1"
             width={332}
             height={392}
@@ -197,7 +204,7 @@ function ProductDetail() {
         </div>
         <div className="flex flex-col gap-3">
           <div className="flex text-justify flex-col gap-4">
-            <h1>the quick fox jumps over </h1>
+            <h1 className="font-semibold text-md text-center">the quick fox jumps over </h1>
             <p className="flex gap-2 items-ceter">
               <span>
                 <FaAngleRight size={28} />
@@ -223,8 +230,8 @@ function ProductDetail() {
               the quick fox jumps over the lazy dog
             </p>
           </div>
-          <div className="flex flex-col gap-4">
-            <h1>the quick fox jumps over </h1>
+          <div className="flex text-justify flex-col  gap-4">
+            <h1 className="font-semibold text-md text-center">the quick fox jumps over </h1>
             <p className="flex gap-2 items-ceter">
               <span>
                 <FaAngleRight size={28} />
@@ -245,6 +252,7 @@ function ProductDetail() {
             </p>
           </div>
         </div>
+      </div>
       </div>
 
       {/* section three */}

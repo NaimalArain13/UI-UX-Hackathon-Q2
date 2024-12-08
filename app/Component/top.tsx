@@ -1,6 +1,4 @@
-import Image from "next/image";
 import React from "react";
-import Link from "next/link";
 import { BsTelephone } from "react-icons/bs";
 import { MdOutlineMail } from "react-icons/md";
 import { FaTwitter } from "react-icons/fa6";
@@ -9,7 +7,7 @@ import { FaXTwitter } from "react-icons/fa6";
 
 function ProductTopSection() {
   return (
-    <div className="hidden sm:hidden lg:flex  w-full  md:max-w-[1440px] text-white bg-[#252B42] h-[50px]">
+    <div className="top-0 sticky z-10 hidden sm:hidden lg:flex  w-full  md:max-w-[1440px] text-white bg-[#252B42] h-[50px]">
       <div className="py-3 w-full flex justify-between items-center gap-11 px-10">
         <div className="w-full max-w-[386px] h-[30px] flex gap-4 items-center">
           <span className="h-[21px] text-sm flex items-center gap-2">

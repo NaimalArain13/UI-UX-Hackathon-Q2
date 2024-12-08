@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from "next/image";
-import { FaGithub, FaInstagram, FaLinkedin, FaToggleOn } from "react-icons/fa";
+import { FaInstagram, FaLinkedin, FaToggleOn } from "react-icons/fa";
 import { Button } from '@/components/ui/button';
 import PriceComponent from './priceComponent';
 import { BiDollar } from 'react-icons/bi';
@@ -15,13 +15,13 @@ function PriceCard() {
     <div className="bg-Primary min-h-screen flex flex-col justify-center items-center py-7">
       <div className="flex flex-col w-full justify-center items-center">
         {/* Heading Section */}
-        <div className="mb-8 flex flex-col justify-center items-center w-full space-y-9 text-center max-w-[463px]">
+        <div className="mb-8 px-4 flex flex-col justify-center items-center w-full space-y-9 text-center max-w-[463px]">
           <h1 className="font-bold text-Text2 text-3xl">Pricing</h1>
           <p>
             Problems trying to resolve the conflict between the two major realms
             of Classical physics: Newtonian mechanics
           </p>
-          <div className="flex gap-6 items-center">
+          <div className="flex gap-6 px-3 items-center">
             <p className="flex gap-3 text-xl font-[600px] items-center">
               Monthly <span> <FaToggleOn size={39} /></span>
             </p>

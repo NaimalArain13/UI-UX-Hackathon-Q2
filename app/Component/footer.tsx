@@ -1,5 +1,4 @@
 import { Input } from "@/components/ui/input";
-import Image from "next/image";
 import { FaGithub, FaLinkedin, FaRegCopyright } from "react-icons/fa";
 
 import { FaXTwitter } from "react-icons/fa6";
@@ -86,8 +85,8 @@ export default function Footer() {
 
       </div>
         {/* Bottom Section */}
-        <div className="py-6 mx-auto px-20 bg-Primary  flex items-center justify-start">
-          <div className="flex items-center text-Text1 gap-3 text-sm ">
+        <div className="py-6 md:mx-auto px-2  md:px-20 bg-Primary  flex items-center justify-start">
+          <div className="flex items-center text-center text-Text1 gap-1 text-sm ">
             <FaRegCopyright />
             <p>Made With Love By Finland All Right Reserved </p>
           </div>

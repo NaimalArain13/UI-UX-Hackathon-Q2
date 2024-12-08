@@ -11,7 +11,7 @@ export default function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   return (
-    <div className="w-full max-w-[1440px] p-4 mx-auto">
+    <div className="top-0 sticky z-10 bg-white w-full max-w-[1440px] p-4 mx-auto">
       <div className="flex justify-between items-center px-4">
         {/* Logo */}
         <div className="font-bold text-2xl">Bandage</div>
@@ -20,24 +20,24 @@ export default function Navbar() {
         <div className="hidden sm:hidden md:flex gap-3 text-Text2 text-lg font-[650px]">
           <Link href={"/"}>Home</Link>
           <Link href={"/productListing"}>Shop</Link>
-          <Link href={"/about"}>About</Link>
+          <Link href={"#"}>About</Link>
           <Link href={"#"}>Blog</Link>
           <Link href={"/contact"}>Contact</Link>
           <Link href={"#"}>Pages</Link>
         </div>
 
         {/* Icons */}
-        <div className="flex gap-6 items-center text-Button">
+        <div className="flex  gap-6 items-center text-Button">
           <UserPen size={22} className="hidden md:block" />
           <p className="text-lg font-medium hidden md:block">
             Login / Register
           </p>
-          <div className="flex gap-4">
+          <div className="md:flex hidden gap-4">
             <IoIosSearch size={24} />
-            <Link href={"/cart"}>
+            <Link href={"#"}>
               <PiShoppingCartSimpleThin size={28} />
             </Link>
-            <Link href={"/wishlist"}>
+            <Link href={"/productDetails"}>
               <CiHeart size={28} />
             </Link>
           </div>
@@ -75,21 +75,21 @@ export default function Navbar() {
             Home
           </Link>
           <Link
-            href={"/shop"}
+            href={"/productListing"}
             className="text-Text2 text-xl font-semibold"
             onClick={() => setIsMobileMenuOpen(false)}
           >
             Shop
           </Link>
           <Link
-            href={"/about"}
+            href={"#"}
             className="text-Text2 text-xl font-semibold"
             onClick={() => setIsMobileMenuOpen(false)}
           >
             About
           </Link>
           <Link
-            href={"/blog"}
+            href={"#"}
             className="text-Text2 text-xl font-semibold"
             onClick={() => setIsMobileMenuOpen(false)}
           >
@@ -103,7 +103,7 @@ export default function Navbar() {
             Contact
           </Link>
           <Link
-            href={"/pages"}
+            href={"#"}
             className="text-Text2 text-xl font-semibold"
             onClick={() => setIsMobileMenuOpen(false)}
           >
@@ -114,10 +114,10 @@ export default function Navbar() {
             <p className="text-lg font-medium">Login / Register</p>
             <div className="flex gap-6">
               <IoIosSearch size={24} />
-              <Link href={"/cart"}>
+              <Link href={"#"}>
                 <PiShoppingCartSimpleThin size={28} />
               </Link>
-              <Link href={"/wishlist"}>
+              <Link href={"/productDetails"}>
                 <CiHeart size={28} />
               </Link>
             </div>

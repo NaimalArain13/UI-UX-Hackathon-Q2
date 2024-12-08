@@ -63,11 +63,3 @@ function Editor() {
 }
 
 export default Editor;
-
-const MyButton = () => {
-  return (
-    <Button variant="outline" className="px-5 p-1 bg-transparent">
-      Shop Now
-    </Button>
-  );
-};

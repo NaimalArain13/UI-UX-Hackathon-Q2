@@ -3,7 +3,7 @@ import { FaAngleRight } from "react-icons/fa";
 
 export function FAQsCard() {
   return (
-    <div className="flex ">
+    <div className="flex">
       <p>
         <FaAngleRight size={24} />
       </p>

@@ -69,7 +69,7 @@ function ProductSection() {
     },
   ];
   return (
-    <div className="mx-auto w-full py-9 md:px-4">
+    <div className="w-full py-9">
       <div className="flex flex-col items-center md:justify-center">
         <div className="mb-8 flex flex-col w-full text-center md:max-w-[463px]">
           <p>Featured Products</p>
@@ -77,7 +77,7 @@ function ProductSection() {
           <p>Problems trying to resolve the conflict between </p>
         </div>
         <div
-          className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-7
+          className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-7 px-4
           "
         >
           {homePage.map((product, index) => (

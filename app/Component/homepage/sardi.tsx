@@ -16,7 +16,7 @@ function SardiSection() {
         Universe</h1>
         <p className='text-left'>We know how large objects will act, 
         but things on a small scale.</p>
-        <div className='flex gap-4 flex-row justify-center items-center sm:items-start'>
+        <div className='flex gap-4 flex-col md:flex-row justify-center items-center sm:items-start'>
         <Button className='text-white bg-[#2DC071] p-5 rounded-none'>BUY NOW</Button>
         <Button className='text-black bg-white p-5 rounded-none'>READ MORE</Button>
         </div>
