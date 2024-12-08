@@ -143,7 +143,7 @@ function ContactSection() {
         <h1 className="font-bold text-[28px] md:text-[40px] text-center">
           We help small businesses with big ideas
         </h1>
-        <div className="flex flex-col md:flex-row gap-6 w-full">
+        <div className="flex flex-col justify-center items-center md:flex-row gap-6 w-full">
           <ContactCard icon={<BsTelephone />} />
           <div className="h-auto md:h-[343px] bg-[#252B42] text-white p-6 flex flex-col space-y-3 justify-center items-center text-center">
             <h1 className="text-Button text-[60px]">
