@@ -1,3 +1,43 @@
+# 🌟 Naimal's UI/UX Hackathon Project  
+
+This project is a modern and responsive web application developed as part of the **Hackathon Q2** challenge, showcasing advanced UI/UX design principles and seamless user navigation. It includes several thoughtfully crafted pages aimed at providing an intuitive user experience.
+
+## 📄 Pages Overview  
+
+1. **Landing Page**  
+   - A visually appealing and user-friendly homepage designed to make a strong first impression.  
+   - Features clean layouts, engaging visuals, and interactive elements to grab the user's attention.  
+
+2. **Contact Page**  
+   - A dedicated page for user inquiries, feedback, or support.  
+   - Includes a simple, easy-to-use contact form for seamless communication.  
+
+3. **Project Detail Page**  
+   - Provides comprehensive information about specific projects.  
+   - Features engaging layouts to showcase the project details in a structured and user-friendly manner.  
+
+4. **Project Listing Page**  
+   - A dynamic page displaying a list of all projects.  
+   - Designed with a clean and intuitive layout to make browsing effortless.  
+
+5. **Pricing Page**  
+   - A professionally styled page showcasing different pricing plans and packages.  
+   - Includes clear call-to-action buttons and a comparison of features to guide users effectively.  
+
+## 💻 Features  
+- Fully responsive design, ensuring optimal viewing across devices.  
+- Modern UI/UX principles for a seamless user experience.  
+- Clean, maintainable codebase with scalable design patterns.  
+- Hosted on **Vercel** for fast and reliable performance.  
+
+## 🚀 Live Demo  
+Explore the live version of the project: [Naimal's Hackathon Project](https://naimal-ui-ux-hackathon-q2.vercel.app/)  
+
+## 🛠️ Technologies Used  
+- **Frontend**: Next.js, Tailwind CSS  
+- **Hosting**: Vercel  
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
