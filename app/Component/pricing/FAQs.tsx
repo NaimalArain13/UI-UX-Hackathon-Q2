@@ -7,7 +7,7 @@ export function FAQsCard() {
       <p>
         <FaAngleRight size={24} />
       </p>
-      <div>
+      <div className="text-justify">
         <h1 className="font-bold text-md ">
           the quick fox jumps over the lazy dog
         </h1>

@@ -175,7 +175,7 @@ function PriceCard() {
         </div>
 
         {/* Free Trial Section */}
-        <div className='bg-white flex flex-col text-[#737373]  items-center justify-center mx-auto py-11 space-y-7'>
+        <div className='bg-white flex flex-col text-[#737373] text-center items-center justify-center mx-auto py-11 space-y-7'>
             <h1 className='font-bold text-[40px] text-Text2'>Start your 14 days free trial</h1>
             <p className='text-center '>Met minim Mollie non desert Alamo est sit cliquey dolor <br />
             do met sent. RELIT official consequent.</p>
