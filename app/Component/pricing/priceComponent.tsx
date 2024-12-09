@@ -8,7 +8,7 @@ interface PriceProp {
 }
 function PriceComponent({plan,description,price}:PriceProp) {
   return (
-    <div className='bg-white flex justify-center rounded-lg border border-Button items-center h-[500px] w-[327px] p-9'>
+    <div className='bg-white flex justify-center rounded-lg border py-5 border-Button items-center h-[500px] w-[327px] p-9'>
         <div className='space-y-5 text-Text2'>
             <h1 className='font-semibold text-xl'>{plan}</h1>
             <p className='text-lg font-medium'>{description}</p>

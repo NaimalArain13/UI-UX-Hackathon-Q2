@@ -35,13 +35,13 @@ function PriceCard() {
         </div>
 
         {/* Pricing Cards Section */}
-        <div className="flex py-6 justify-center items-center ">
+        <div className="flex flex-col md:flex-row gap-3 md:gap-0 md:py-6 justify-center items-center ">
           <PriceComponent
             plan={"Free"}
             description={`Organize across all apps by hand`}
             price={0}
           />
-          <div className="bg-[#252B42] rounded-lg border relative bottom-5  border-Button flex justify-center items-center h-[500px] w-[327px] p-9">
+          <div className="bg-[#252B42] rounded-lg border py-5  md:relative md:bottom-5  border-Button flex justify-center items-center h-[500px] w-[327px] p-9">
             <div className="space-y-5 text-Primary">
               <h1 className="font-semibold text-xl">Standard</h1>
               <p className="text-lg font-medium">
