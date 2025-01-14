@@ -137,7 +137,7 @@ function Shop() {
       </div>
 {/* section two */}
       <div className="flex justify-center items-center flex-col py-6">
-        <div className="grid grid-cols md:grid-cols-5 gap-2">
+        <div className="grid grid-cols  md:grid-cols-5 gap-2">
           <div>
             {" "}
             <Image
@@ -184,7 +184,7 @@ function Shop() {
       </div>
 
 {/* section three */}
-      <div className="flex flex-col gap-5 md:flex-row justify-between sm:p-5 items-center bg-white md:px-9">
+      <div className="flex flex-col gap-5 md:flex-row justify-between p-5 items-center bg-white md:px-9">
         <div>Showing all 12 results</div>
         <div className="flex gap-5 items-center">
           <p>View:</p>

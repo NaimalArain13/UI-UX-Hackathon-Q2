@@ -156,10 +156,10 @@ function ProductDetail() {
               <Button className="bg-Button py-6 hover:bg-none">Select Options</Button>
               <div className="flex gap-4">
 
-                <CiHeart size={28} className="bg-white"/>
-                <PiShoppingCartSimpleThin size={28} className="bg-white" />
+                <CiHeart size={28} className="text-black"/>
+                <PiShoppingCartSimpleThin size={28} className="text-black " />
 
-              <MdOutlineRemoveRedEye size={24}  className="bg-white"/>
+              <MdOutlineRemoveRedEye size={28}  className="text-gray-600 "/>
               </div>
             </div>
           </div>

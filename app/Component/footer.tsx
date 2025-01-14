@@ -71,11 +71,11 @@ export default function Footer() {
              <div className="flex justify-center  items-center flex-col  md:items-start md:justify-start">
               <p className="font-bold mb-3 text-Text2 ">Get In Touch</p>
               
-             <div className="bg-Primary p-4 flex justify-between">
+             <div className="py-3  flex justify-between">
                
-                    <Input type="text" placeholder="Email" className="text-left bg-transparent border-none outline-none" />
+                    <Input type="text" placeholder="Email" className="text-left bg-Primary border-none outline-none" />
                 
-                <p className="bg-Button text-white items-center px-3 flex justify-end">Subscribe</p>
+                <p className="bg-Button text-white items-center text-sm px-2 flex justify-end">Subscribe</p>
              </div>
              <p className="text-sm">Lore imp sum dolor Amit</p>
             </div>

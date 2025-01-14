@@ -11,7 +11,7 @@ function TopSection() {
       <div className="py-3 w-full flex justify-center items-center gap-11 px-10">
         <div className="w-full  h-[30px] flex gap-4 items-center">
           <span className="h-[21px] text-sm flex items-center gap-2">
-            <BsTelephone /> (225) 555-0118
+            <BsTelephone /> (225)5550118
           </span>
 
           <span className="h-[21px] text-sm items-center flex gap-2">

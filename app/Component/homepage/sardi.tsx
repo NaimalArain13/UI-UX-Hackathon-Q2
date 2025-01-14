@@ -10,7 +10,7 @@ function SardiSection() {
    <Image 
       src={"/images/sardi.png"} alt='green image' width={443} height={300} className='flex justify-center self-center'/>
    </div>
-    <div className='md:w-1/2 py-7 w-full flex flex-col justify-center items-center text-center md:text-left sm:items-start gap-5'>
+    <div className='md:w-1/2 py-5 md:pt-10 w-full flex flex-col justify-center items-center text-center md:text-left sm:items-start gap-5'>
         <p className=''>SUMMER 2020</p>
         <h1 className='font-semibold text-[48px]'>Part of the Neural 
         Universe</h1>
